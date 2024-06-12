@@ -1,0 +1,3 @@
+git add .
+git commit -m "__anymessage__"
+git push -u origin main
