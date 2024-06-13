@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froms</title>
+</head>
+<body>
+    <h1>From to fill personal details</h1>
+    <form  action="post">
+        <h3>Name</h3>
+    <div>
+        <p>
+            <label for="FirstName">Enter Your FirstName :</label>
+            <input type="text" id="FirstName" name="Name" placeholder="Enter your First Name">
+        </p>
+        <p>
+            <label for="LastName">Enter Your LastName :</label>
+        <input type="text" id="LastName" name="Name" placeholder="Enter your Last Name">
+        </p>
+    </div>
+    <h3>Gender</h3>
+    <div>
+        <input type="radio" id="Male" name="Gender" placeholder="Male">
+        <label for="Male">Male</label>
+        <br>
+        <input type="radio" id="Female" name="Gender" 
+        placeholder="Female">
+        <label for="Female">Female</label>
+    </div>
+    <br>
+    <h3>Marital Status</h3>
+    <div>
+        <input type="checkbox" id="Married" name="Marital Status" placeholder="Marital Status">
+        <label for="Married">Married</label>
+        <input type="checkbox" name="Marital Status" id="Single">
+        <label for="Single">Single</label>
+    </div>
+    <br>
+    <div>
+        <h3>Address</h3>
+        <textarea name="Address" id="Address" rows="4" cols="50"></textarea>
+    </div>
+
+    <p>
+        <div>
+            <select name="Location" id="Location'">
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Ludhiana">Ludhiana</option>
+            </select>
+        </div>
+    </p>
+    <p>
+        <button>Submit</button>
+    </p>
+    </form>
+</body>
+</html>
