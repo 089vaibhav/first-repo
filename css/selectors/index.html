@@ -1,0 +1,71 @@
+<!-- Selectors -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+
+        /* element selector */
+        div{
+            background: red;
+        }
+
+        /* class selector */
+        .red{
+            background: blue;
+            color: white ;
+        }
+        
+        /* child selector */
+        div >p{
+            color: aqua;
+            background: green;
+        }
+
+        /* decendent selector */
+        div article{
+            background-color: bisque;
+        }
+
+        /* universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* pseudo selectors */
+        a:visited{
+            background-color: red;
+            color: yellow;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: rgb(199, 128, 35);
+        }
+        p:first-child{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        I am selector
+    </div>
+    <div>
+        I am a div.
+        <p>this is a paragraph
+            <article>
+                hello
+            </article>
+        </p>
+        
+    </div>
+    <div class="red">I am class selector.</div>
+    <a href="https://ww.google.com">Go to Google</a>
+</body>
+</html>
